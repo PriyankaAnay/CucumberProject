@@ -28,11 +28,11 @@ public class LoginSteps {
 
 	}
 
-	@When("user enters username and password")
-	public void user_enters_username_and_password() {
-		System.out.println("Step2: User Enters Username and Password");
-		driver.findElement(By.xpath("//input[@name=\"username\"]")).sendKeys("Admin");
-		driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("admin123");
+	@When("^user enters (.*) and (.*)$")
+	public void user_enters_username_and_password(String uname, String pwd) {
+		System.out.println("Step2: User Enters Username and Password");	
+		driver.findElement(By.xpath("//input[@name=\"username\"]")).sendKeys("uname");
+		driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("pwd");
 	}
 
 	@And("Click on Login button")
@@ -44,6 +44,7 @@ public class LoginSteps {
 	@Then("user should be land on homepage")
 	public void user_should_be_land_on_homepage() {
 		System.out.println("Step4: User lands on home page");
+		driver.close();
 	}
 
 }
