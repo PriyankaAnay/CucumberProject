@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 monochrome=true,
 plugin= {"html:Reports\\HTMLReports","json:Reports\\JsonReports\\Cucumber.json",
 		"junit:Reports\\JUnitReports\\Cucumber.xml"} ,
-dryRun=false
+dryRun=true
 
 )
 

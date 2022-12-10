@@ -10,3 +10,4 @@ Feature: Test the login functionality of OrangeHRM
       | username | password  |
       | admin    | admin123  |
       | admin1   | admin1234 |
+ 
