@@ -1,24 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.279">
-    <testcase classname="Test the login functionality of OrangeHRM using Datatable" name="Test the valid Login using Datatable" time="0.032">
-        <system-out><![CDATA[Given User is on Loginpage..................................................passed
-When user enters credential using DataTable.................................passed
-And Click on Login button...................................................passed
-Then user should be land on homepage........................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="0.079164">
+    <testcase classname="Test the login functionality of OrangeHRM using Datatable" name="Test the valid Login using Datatable" time="0.028633">
+        <system-out><![CDATA[Given User is on Loginpage..................................................skipped
+When user enters credential using DataTable.................................skipped
+And Click on Login button...................................................skipped
+Then user should be land on homepage........................................skipped
 ]]></system-out>
     </testcase>
-    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid Login" time="0.003">
-        <system-out><![CDATA[Given User is on Loginpage..................................................passed
-When user enters admin and admin123.........................................passed
-And Click on Login button...................................................passed
-Then user should be land on homepage........................................passed
+    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid Login" time="0.015766">
+        <system-out><![CDATA[Given User is on Loginpage..................................................skipped
+When user enters admin and admin123.........................................skipped
+And Click on Login button...................................................skipped
+Then user should be land on homepage........................................skipped
 ]]></system-out>
     </testcase>
-    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid Login 2" time="0.001">
-        <system-out><![CDATA[Given User is on Loginpage..................................................passed
-When user enters admin1 and admin1234.......................................passed
-And Click on Login button...................................................passed
-Then user should be land on homepage........................................passed
+    <testcase classname="Test the login functionality of OrangeHRM" name="Test the valid Login 2" time="0.005937">
+        <system-out><![CDATA[Given User is on Loginpage..................................................skipped
+When user enters admin1 and admin1234.......................................skipped
+And Click on Login button...................................................skipped
+Then user should be land on homepage........................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating RediffLoggingandLogOut" name="This the Login Scenario of RediffMail" time="0.010849">
+        <system-out><![CDATA[Given I open the ChromeBrowser..............................................skipped
+And I Enter the url in the address bar......................................skipped
+When I click on the signIn  link............................................skipped
+And I enterd the RediffMail page............................................skipped
+And I enter the correct Username and Password...............................skipped
+Then I click on sign in button..............................................skipped
+And I check if I an on Inbox page of Rediffmail.............................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Using of Tags in Cucumber" name="Scenario1" time="0.011601">
+        <system-out><![CDATA[Given This is Scenari1......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Using of Tags in Cucumber" name="Scenario2" time="0.001672">
+        <system-out><![CDATA[Given This is Scenari2......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Using of Tags in Cucumber" name="Scenario3" time="0.002063">
+        <system-out><![CDATA[Given This is Scenari3......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Using of Tags in Cucumber" name="Scenario4" time="0.001304">
+        <system-out><![CDATA[Given This is Scenari4......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="Using of Tags in Cucumber" name="Scenario5" time="0.001339">
+        <system-out><![CDATA[Given This is Scenari5......................................................skipped
 ]]></system-out>
     </testcase>
 </testsuite>

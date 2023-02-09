@@ -1,1 +1,479 @@
-[{"line":1,"elements":[{"start_timestamp":"2022-12-10T16:56:28.853Z","line":3,"name":"Test the valid Login using Datatable","description":"","id":"test-the-login-functionality-of-orangehrm-using-datatable;test-the-valid-login-using-datatable","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":999900,"status":"passed"},"line":4,"name":"User is on Loginpage","match":{"location":"com.stepDefinition.LoginSteps.user_is_on_loginpage()"},"keyword":"Given "},{"result":{"duration":1000800,"status":"passed"},"line":5,"name":"user enters credential using DataTable","match":{"location":"com.stepDefinition.LoginSteps.user_enters_credential_using_data_table(io.cucumber.datatable.DataTable)"},"rows":[{"cells":["admin","admin123"]}],"keyword":"When "},{"result":{"status":"passed"},"line":7,"name":"Click on Login button","match":{"location":"com.stepDefinition.LoginSteps.click_on_login_button()"},"keyword":"And "},{"result":{"status":"passed"},"line":8,"name":"user should be land on homepage","match":{"location":"com.stepDefinition.LoginSteps.user_should_be_land_on_homepage()"},"keyword":"Then "}]}],"name":"Test the login functionality of OrangeHRM using Datatable","description":"","id":"test-the-login-functionality-of-orangehrm-using-datatable","keyword":"Feature","uri":"file:src/test/resources/Features/DataTableFeature.feature","tags":[]},{"line":1,"elements":[{"start_timestamp":"2022-12-10T16:56:28.907Z","line":11,"name":"Test the valid Login","description":"","id":"test-the-login-functionality-of-orangehrm;test-the-valid-login;;2","type":"scenario","keyword":"Scenario Outline","steps":[{"result":{"status":"passed"},"line":4,"name":"User is on Loginpage","match":{"location":"com.stepDefinition.LoginSteps.user_is_on_loginpage()"},"keyword":"Given "},{"result":{"status":"passed"},"line":5,"name":"user enters admin and admin123","match":{"arguments":[{"val":"admin","offset":12},{"val":"admin123","offset":22}],"location":"com.stepDefinition.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"},"keyword":"When "},{"result":{"status":"passed"},"line":6,"name":"Click on Login button","match":{"location":"com.stepDefinition.LoginSteps.click_on_login_button()"},"keyword":"And "},{"result":{"status":"passed"},"line":7,"name":"user should be land on homepage","match":{"location":"com.stepDefinition.LoginSteps.user_should_be_land_on_homepage()"},"keyword":"Then "}]},{"start_timestamp":"2022-12-10T16:56:28.919Z","line":12,"name":"Test the valid Login","description":"","id":"test-the-login-functionality-of-orangehrm;test-the-valid-login;;3","type":"scenario","keyword":"Scenario Outline","steps":[{"result":{"status":"passed"},"line":4,"name":"User is on Loginpage","match":{"location":"com.stepDefinition.LoginSteps.user_is_on_loginpage()"},"keyword":"Given "},{"result":{"duration":999100,"status":"passed"},"line":5,"name":"user enters admin1 and admin1234","match":{"arguments":[{"val":"admin1","offset":12},{"val":"admin1234","offset":23}],"location":"com.stepDefinition.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"},"keyword":"When "},{"result":{"status":"passed"},"line":6,"name":"Click on Login button","match":{"location":"com.stepDefinition.LoginSteps.click_on_login_button()"},"keyword":"And "},{"result":{"status":"passed"},"line":7,"name":"user should be land on homepage","match":{"location":"com.stepDefinition.LoginSteps.user_should_be_land_on_homepage()"},"keyword":"Then "}]}],"name":"Test the login functionality of OrangeHRM","description":"","id":"test-the-login-functionality-of-orangehrm","keyword":"Feature","uri":"file:src/test/resources/Features/LoginFeature.feature","tags":[]}]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-28T08:46:52.872Z",
+        "line": 3,
+        "name": "Test the valid Login using Datatable",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm-using-datatable;test-the-valid-login-using-datatable",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1802400,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is on Loginpage",
+            "match": {
+              "location": "LoginSteps.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2283100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters credential using DataTable",
+            "match": {
+              "location": "LoginSteps.user_enters_credential_using_data_table(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "admin",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 650400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on Login button",
+            "match": {
+              "location": "LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user should be land on homepage",
+            "match": {
+              "location": "LoginSteps.user_should_be_land_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality of OrangeHRM using Datatable",
+    "description": "",
+    "id": "test-the-login-functionality-of-orangehrm-using-datatable",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/DataTableFeature.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-28T08:46:52.912Z",
+        "line": 11,
+        "name": "Test the valid Login",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 419200,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is on Loginpage",
+            "match": {
+              "location": "LoginSteps.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 371500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters admin and admin123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 12
+                },
+                {
+                  "val": "admin123",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 372200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should be land on homepage",
+            "match": {
+              "location": "LoginSteps.user_should_be_land_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-28T08:46:52.929Z",
+        "line": 12,
+        "name": "Test the valid Login",
+        "description": "",
+        "id": "test-the-login-functionality-of-orangehrm;test-the-valid-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 434100,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is on Loginpage",
+            "match": {
+              "location": "LoginSteps.user_is_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 386100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters admin1 and admin1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin1",
+                  "offset": 12
+                },
+                {
+                  "val": "admin1234",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 969800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Click on Login button",
+            "match": {
+              "location": "LoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1559600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user should be land on homepage",
+            "match": {
+              "location": "LoginSteps.user_should_be_land_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the login functionality of OrangeHRM",
+    "description": "",
+    "id": "test-the-login-functionality-of-orangehrm",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginFeature.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-28T08:46:52.937Z",
+        "line": 5,
+        "name": "This the Login Scenario of RediffMail",
+        "description": "",
+        "id": "validating-rediffloggingandlogout;this-the-login-scenario-of-rediffmail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 434300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I open the ChromeBrowser",
+            "match": {
+              "location": "RediffStepDefination.i_open_the_ChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I Enter the url in the address bar",
+            "match": {
+              "location": "RediffStepDefination.i_Enter_the_url_in_the_address_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 660300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click on the signIn  link",
+            "match": {
+              "location": "RediffStepDefination.i_click_on_the_signIn_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 596400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enterd the RediffMail page",
+            "match": {
+              "location": "RediffStepDefination.i_enterd_the_RediffMail_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 507000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter the correct Username and Password",
+            "match": {
+              "location": "RediffStepDefination.i_enter_the_correct_Username_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 473200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on sign in button",
+            "match": {
+              "location": "RediffStepDefination.i_click_on_sign_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 365100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I check if I an on Inbox page of Rediffmail",
+            "match": {
+              "location": "RediffStepDefination.i_check_if_I_an_on_Inbox_page_of_Rediffmail()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validating RediffLoggingandLogOut",
+    "description": "  \t\tI want to validate the login and logout of RediffMail",
+    "id": "validating-rediffloggingandlogout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Rediff.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-28T08:46:52.949Z",
+        "line": 4,
+        "name": "Scenario1",
+        "description": "",
+        "id": "using-of-tags-in-cucumber;scenario1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 447900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "This is Scenari1",
+            "match": {
+              "location": "TagsDemo.this_is_scenari1()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-28T08:46:52.961Z",
+        "line": 9,
+        "name": "Scenario2",
+        "description": "",
+        "id": "using-of-tags-in-cucumber;scenario2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 416800,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "This is Scenari2",
+            "match": {
+              "location": "TagsDemo.this_is_scenari2()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-28T08:46:52.964Z",
+        "line": 15,
+        "name": "Scenario3",
+        "description": "",
+        "id": "using-of-tags-in-cucumber;scenario3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 408600,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "This is Scenari3",
+            "match": {
+              "location": "TagsDemo.this_is_scenari3()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-28T08:46:52.966Z",
+        "line": 19,
+        "name": "Scenario4",
+        "description": "",
+        "id": "using-of-tags-in-cucumber;scenario4",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 407800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "This is Scenari4",
+            "match": {
+              "location": "TagsDemo.this_is_scenari4()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-28T08:46:52.968Z",
+        "line": 24,
+        "name": "Scenario5",
+        "description": "",
+        "id": "using-of-tags-in-cucumber;scenario5",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 371900,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "This is Scenari5",
+            "match": {
+              "location": "TagsDemo.this_is_scenari5()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Using of Tags in Cucumber",
+    "description": "",
+    "id": "using-of-tags-in-cucumber",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/TagsDemo.feature",
+    "tags": []
+  }
+]
